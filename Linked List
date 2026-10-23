@@ -16,3 +16,8 @@ Example 1: Train Coaches
 Example 2: Playlist of Songs
 • Each song (node) contains the track (data) and a link to the next song (pointer).
 • You can skip, add, or remove songs without shifting the entire playlist, just by changing links.
+
+Type Structure                          Use                                                   Case Example
+Singly Linked               List Each node points to next node only.                      Playlist of songs
+Doubly Linked List          Each node has two pointers: next and previous.                Browser back/forward navigation
+Circular Linked List        Last node points back to the first node.                      Multiplayer games turn rotation
