@@ -1,0 +1,10 @@
+What is a Linked List?
+A linked list is a linear data structure where elements (called nodes) are stored in a sequence, but not necessarily in contiguous memory locations.
+
+Each node has two parts:
+• Data – the actual value stored.
+• Pointer (or reference) – a link to the next node in the sequence.
+• Unlike arrays, linked lists don’t need continuous memory blocks, so they allow
+dynamic memory allocation, efficient insertion and deletion, but slower random access.
+
+A linked list is like a chain of connected items where you can easily insert or remove elements without shifting the rest.
