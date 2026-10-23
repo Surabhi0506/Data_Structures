@@ -21,3 +21,10 @@ Type Structure                          Use                                     
 Singly Linked               List Each node points to next node only.                      Playlist of songs
 Doubly Linked List          Each node has two pointers: next and previous.                Browser back/forward navigation
 Circular Linked List        Last node points back to the first node.                      Multiplayer games turn rotation
+
+Operation                                       Description
+
+Traversal                           Go through each node from head to end
+Insertion                           Add a new node at beginning, middle, or end
+Deletion                            Remove a node
+Search                              Find an element in the list
