@@ -3,3 +3,27 @@ A stack is a linear data structure in which insertion and deletion of elements t
 end, called the TOP.
 A stack follows the LIFO (Last In, First Out) principle. The element inserted last is removed first.
 
+Real-life examples:
+• A stack of plates in a cafeteria.
+• Undo and redo operations in a text editor.
+• The Back button in a web browser.
+• Function calls and recursion in programming.
+• Reversing a string.
+
+Visual representation of a stack
+TOP
+30
+20
+10
+Bottom
+Element 30 was inserted last, so it will be removed first.
+
+2. Basic Stack Operations
+Operation                                                               Description
+push(x)                                                         Inserts element x at the top.
+pop()                                                           Removes and returns the top element.
+peek() / top()                                                  Returns the top element without removing it.
+isEmpty()                                                       Checks whether the stack is empty.
+isFull()                                                        Checks whether an array-based stack is full.
+size()                                                          Returns the number of elements.
+display()                                                       Displays the stack elements.
