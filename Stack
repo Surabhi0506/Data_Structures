@@ -1,0 +1,5 @@
+Introduction to Stack
+A stack is a linear data structure in which insertion and deletion of elements take place at only one
+end, called the TOP.
+A stack follows the LIFO (Last In, First Out) principle. The element inserted last is removed first.
+
