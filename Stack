@@ -27,3 +27,11 @@ isEmpty()                                                       Checks whether t
 isFull()                                                        Checks whether an array-based stack is full.
 size()                                                          Returns the number of elements.
 display()                                                       Displays the stack elements.
+
+Stack Overflow and Stack Underflow
+
+• Stack Overflow: Occurs when an element is pushed into a full, fixed-capacity stack.
+• Stack Underflow: Occurs when an element is popped from an empty stack.
+
+Example: If an array-based stack has a capacity of 3 and already contains [10, 20, 30], pushing 40
+causes overflow. Popping from an empty stack causes underflow.
