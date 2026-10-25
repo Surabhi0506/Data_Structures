@@ -1,9 +1,11 @@
-Introduction to Stack
+Introduction to Stack:
+
 A stack is a linear data structure in which insertion and deletion of elements take place at only one
 end, called the TOP.
 A stack follows the LIFO (Last In, First Out) principle. The element inserted last is removed first.
 
 Real-life examples:
+
 • A stack of plates in a cafeteria.
 • Undo and redo operations in a text editor.
 • The Back button in a web browser.
@@ -11,6 +13,7 @@ Real-life examples:
 • Reversing a string.
 
 Visual representation of a stack
+
 TOP
 30
 20
@@ -19,6 +22,7 @@ Bottom
 Element 30 was inserted last, so it will be removed first.
 
 2. Basic Stack Operations
+
 Operation                                                               Description
 push(x)                                                         Inserts element x at the top.
 pop()                                                           Removes and returns the top element.
@@ -35,3 +39,9 @@ Stack Overflow and Stack Underflow
 
 Example: If an array-based stack has a capacity of 3 and already contains [10, 20, 30], pushing 40
 causes overflow. Popping from an empty stack causes underflow.
+
+Implementation of Stack
+
+A stack can be implemented using:
+1. Arrays or Python lists.
+2. Linked lists.
