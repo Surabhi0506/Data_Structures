@@ -42,3 +42,11 @@ TYPES OF TREE:
                               *The left sub-tree of a node has a value less than its parent node's value.
                               *The right sub-tree of a node has a value greater than or equal to its parent node's value.
                               *All subtrees follow above two rules.
+
+Q1: Construct BST with following elements:
+    27,14,19,35,31,10,42,15,55,92,50,-3,42
+
+Q2. Construct BST with following elements and write traversals:
+    75,34,45,62,22,96,82,105,98,25
+
+Q3: Construct BST - jan,feb,mar,apr,may,june,july,aug,sept,oct,nov,dec
