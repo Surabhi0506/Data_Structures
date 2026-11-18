@@ -26,4 +26,19 @@ Terminology:
 10. Level: In a tree DS, the root node is said to be at Level 0 and the children of root node are a Level 1 and children of the nodes
            which are at Level 1 will be at Level 2 and so on.
            **WAF to print all nodes at Level 1
-           
+
+TYPES OF TREE:
+
+1. Binary Tree: A binary tree is either an empty tree or a binary tree consists of a root node, a left subtree and a right subtree, 
+                both of which will act as a binary tree once again.
+
+2. Strictly Binary Tree: Strictly Binary tree is defined as a binary tree where all the nodes will have either zero or two children.
+
+3. Completely Binary Tree: A complete binary tree is a strictly binary tree in which all leaf nodes are at the same level.
+
+4. Left skewed binary tree: A left skew tree has node associated 
+
+5. A Binary Search Tree(BST): It is a tree in which all the nodes follow the below-mentioned properties:
+                              *The left sub-tree of a node has a value less than its parent node's value.
+                              *The right sub-tree of a node has a value greater than or equal to its parent node's value.
+                              *All subtrees follow above two rules.
