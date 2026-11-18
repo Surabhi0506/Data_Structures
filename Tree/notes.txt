@@ -50,3 +50,12 @@ Q2. Construct BST with following elements and write traversals:
     75,34,45,62,22,96,82,105,98,25
 
 Q3: Construct BST - jan,feb,mar,apr,may,june,july,aug,sept,oct,nov,dec
+
+Inorder Traversal: Left subtree -> Root -> Right subtree (gives sorted or ascending output)
+inorder traversal of Q2: 22,25,34,45,62,75,82,96,98,105
+
+Preorder Traversal: Root -> Left subtree -> Right subtree
+preorder traversal of Q2: 75,34,22,25,45,62,96,82,105,98
+
+Postorder Traversal: Left subtree -> Right subtree -> Root
+postorder traversal of Q2: 25,22,62,45,34,82,98,105,96,75
