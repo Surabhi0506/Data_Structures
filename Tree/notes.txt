@@ -1,11 +1,29 @@
 Terminology:
 1. Root
+
 2. Edge
+
 3. Sibling
+
 4. Degree of Node
+
 5. Terminal Node/Leaf Node: In a tree data structure, the node which has no child is known as Leaf node.
+
 6. Nonterminal Node/Internal: 
+
 7. Height: In a tree data structure, the total number of edges from leaf node to a particular node in the 
            longest path is called as Height of that Node.
            *In any tree "height of node" is the total number of edges from leaf to that node in the longest path.
            *In any tree "height of tree" is the height of the root node.
+
+8. Subtree: In a tree data structure, each child from a node forms a subtree recursively. Every child node will form a subtree
+            on its parent node.
+            **WAF to count the subtrees of a node
+
+9. Path: In a tree data structure, the sequence of Nodes and Edges from one node to another node is called as Path between those two nodes.
+        **WAF to count no of nodes from path A-J
+
+10. Level: In a tree DS, the root node is said to be at Level 0 and the children of root node are a Level 1 and children of the nodes
+           which are at Level 1 will be at Level 2 and so on.
+           **WAF to print all nodes at Level 1
+           
